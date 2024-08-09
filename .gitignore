@@ -1,0 +1,23 @@
+# Ignore .env file containing sensitive information
+.env
+
+# Ignore audio files
+audio/
+
+# Ignore Python bytecode files
+__pycache__/
+*.py[cod]
+
+# Ignore virtual environment
+venv/
+env/
+
+# Ignore IDE-specific files
+.vscode/
+.idea/
+
+# Ignore screenshots
+*.png
+
+# Ignore log files
+*.log
