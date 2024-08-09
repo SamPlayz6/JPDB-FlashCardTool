@@ -66,7 +66,7 @@ def get_due_words(driver):
 
 def generate_story(words):
     japanese_words = [word[0] for word in words]
-    prompt = f"Create a short story in Japanese that includes the following words: {', '.join(japanese_words)}. Then provide an English translation of the story."
+    prompt = f"Create a short story in Japanese that includes the following words: {', '.join(japanese_words)}. Then provide an English translation of the story. PLease break up the english half and japanese half by '@'"
     response = openai.ChatCompletion.create(
         model="gpt-4o",
         messages=[
@@ -117,8 +117,10 @@ def main():
                 
                 print("\nHere's a story incorporating the vocabulary:")
                 print(story)
+
                 
-                japanese_story = story.split('\n\n')[0]
+                japanese_story = story.split('@')[0]
+                # print("1:", japanese_story)
                 
                 print("\nPlaying audio of the story...")
                 play_audio(japanese_story)
