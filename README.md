@@ -1,3 +1,5 @@
+# JPDB Language Learning Tool
+
 A language learning tool that generates stories to read and listen to using the vocabulary due on your JPDB due list.
 
 JPDB - https://jpdb.io/
@@ -7,6 +9,8 @@ JPDB - https://jpdb.io/
 pip install selenium webdriver-manager openai python-dotenv playsound
 
 
-![alt text](images/pic1.png)
+Uses JPDB
+![alt text](/images/pic1.png)
 
-![alt text](images/pic2.png)
+Japanese stories generated and also read out!!
+![alt text](/images/pic2.png)
