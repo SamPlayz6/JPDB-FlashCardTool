@@ -16,8 +16,5 @@ env/
 .vscode/
 .idea/
 
-# Ignore screenshots
-*.png
-
 # Ignore log files
 *.log
