@@ -10,7 +10,9 @@ pip install selenium webdriver-manager openai python-dotenv playsound
 
 
 Uses JPDB
-![alt text](/images/pic1.png)
+![JPDB](/images/pic1.png)
+
+
 
 Japanese stories generated and also read out!!
-![alt text](/images/pic2.png)
+![Story Generation](/images/pic2.png)
