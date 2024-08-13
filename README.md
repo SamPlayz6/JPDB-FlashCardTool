@@ -6,7 +6,7 @@ JPDB - https://jpdb.io/
 
 
 ## Dependencies
-pip install selenium webdriver-manager openai python-dotenv playsound
+```pip install selenium webdriver-manager openai python-dotenv playsound```
 
 
 Uses JPDB
